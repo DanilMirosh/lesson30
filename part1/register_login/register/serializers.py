@@ -6,4 +6,6 @@ User = get_user_model()
 
 # TODO опишите сериалайзер для создания пользователя ниже
 class UserCreateSerializer(serializers.ModelSerializer):
-    pass
+    class Meta:
+        model = User
+        fields = '__all__'
