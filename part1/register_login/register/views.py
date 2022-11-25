@@ -9,4 +9,3 @@ User = get_user_model()
 class UserCreateView(CreateAPIView):
     model = User
     serializer_class = UserCreateSerializer
-
